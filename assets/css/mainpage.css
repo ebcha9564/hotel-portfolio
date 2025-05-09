@@ -692,6 +692,9 @@
 }
 
 @media only screen and (max-width: 1280px) {
+  #sec01-about-us {
+    height: 100%;
+  }
   #sec01-about-us .slide-text {
     padding-top: 5rem;
   }
@@ -809,6 +812,9 @@
   }
 }
 @media only screen and (max-width: 1024px) {
+  #sec01-about-us {
+    height: 100%;
+  }
   #sec01-about-us .slide-text {
     padding-top: 4rem;
   }
@@ -932,6 +938,9 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #sec01-about-us {
+    height: 100%;
+  }
   #sec01-about-us .slide-text {
     padding-top: 3rem;
   }
@@ -940,7 +949,7 @@
   #sec01-about-us .swiper-pagination-custom,
   #sec01-about-us .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    top: 67%;
+    top: 70%;
     left: 31.1%;
     width: 60%;
   }
@@ -1056,6 +1065,9 @@
   }
 }
 @media only screen and (max-width: 540px) {
+  #sec01-about-us {
+    height: 100%;
+  }
   #sec01-about-us .slide-text {
     padding-top: 3rem;
   }
@@ -1064,7 +1076,7 @@
   #sec01-about-us .swiper-pagination-custom,
   #sec01-about-us .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    top: 101%;
+    top: 78%;
     left: 20.1%;
     width: 60%;
   }
@@ -1088,21 +1100,20 @@
     font-size: 0.6rem;
   }
   #sec01-about-us .left-background {
-    width: 100%;
-    height: 50%;
+    display: none;
   }
   #sec01-about-us .swiper-slide img {
     padding-left: 1.5rem;
   }
   #sec01-about-us .slide-text {
-    padding-left: 2.5rem;
-    padding-top: 5rem;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
   }
   #sec01-about-us .slide-text p {
     padding-top: 1rem;
   }
   #sec01-about-us .slide-text .button-section {
-    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   #sec02-accomandations button {
     font-size: 0.65rem;
@@ -1248,6 +1259,9 @@
   }
 }
 @media only screen and (max-width: 348px) {
+  #sec01-about-us {
+    height: 100%;
+  }
   #sec01-about-us .slide-text {
     padding-top: 2rem;
   }
@@ -1256,7 +1270,7 @@
   #sec01-about-us .swiper-pagination-custom,
   #sec01-about-us .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    top: 101%;
+    top: 73%;
     left: 20.1%;
     width: 60%;
   }
@@ -1398,6 +1412,9 @@
   }
   #sec04-events .swiper-slide p {
     font-size: 0.6rem;
+  }
+  #sec05-special-offers {
+    height: 100%;
   }
   #sec05-special-offers h2 {
     font-size: 1.6rem;
