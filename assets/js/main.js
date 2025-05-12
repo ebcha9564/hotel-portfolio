@@ -1,10 +1,31 @@
+var swiper = new Swiper(".mySwiper-0", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    effect: 'fade', 
+    fadeEffect: {
+      crossFade: true 
+    },
+    speed: 2000, 
+    autoplay: {
+        delay: 2500, 
+        disableOnInteraction: false, 
+        pauseOnMouseEnter: true
+      },
+    pagination: {
+      el: ".swiper-pagination-0",
+      clickable: true,
+    },
+  });
+
+
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     effect: 'fade',
     fadeEffect: { crossFade: true },
     speed: 800,
     pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-pagination-1",
         clickable: true,
     },
     on: {
