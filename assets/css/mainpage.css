@@ -692,9 +692,6 @@
 }
 
 @media only screen and (max-width: 1280px) {
-  #sec01-about-us {
-    height: 100%;
-  }
   #sec01-about-us .slide-text {
     padding-top: 5rem;
   }
@@ -1115,6 +1112,9 @@
   #sec01-about-us .slide-text .button-section {
     padding-bottom: 1rem;
   }
+  #sec02-accomandations {
+    height: 100%;
+  }
   #sec02-accomandations button {
     font-size: 0.65rem;
   }
@@ -1146,6 +1146,9 @@
   #sec02-accomandations .tab-content .button-view-more button {
     font-size: 0.7rem;
     padding: 0.55rem 1.2rem;
+  }
+  #sec03-dining-cafe {
+    height: 100%;
   }
   #sec03-dining-cafe h2 {
     font-size: 1.6rem;
@@ -1193,6 +1196,9 @@
   #sec03-dining-cafe .content-wrapper .d-flex {
     padding-left: 13.5rem;
   }
+  #sec04-events {
+    height: 100%;
+  }
   #sec04-events h2 {
     font-size: 1.4rem;
   }
@@ -1216,6 +1222,9 @@
   }
   #sec04-events .swiper-slide p {
     font-size: 0.6rem;
+  }
+  #sec05-special-offers {
+    height: 100%;
   }
   #sec05-special-offers h2 {
     font-size: 1.6rem;
@@ -1270,7 +1279,7 @@
   #sec01-about-us .swiper-pagination-custom,
   #sec01-about-us .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    top: 73%;
+    top: 76%;
     left: 20.1%;
     width: 60%;
   }
@@ -1304,7 +1313,7 @@
     padding-left: 1.5rem;
   }
   #sec01-about-us .slide-text {
-    padding-top: 6rem;
+    padding-top: 3rem;
     text-align: center;
   }
   #sec01-about-us .slide-text p {
@@ -1324,6 +1333,7 @@
   }
   #sec02-accomandations .tab-content {
     margin-right: 10rem;
+    padding-top: 2.375rem;
   }
   #sec02-accomandations .tab-content h2 {
     font-size: 0.8rem;
@@ -1357,10 +1367,10 @@
     padding-left: 0;
   }
   #sec03-dining-cafe h4 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   #sec03-dining-cafe p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   #sec03-dining-cafe button {
     font-size: 0.7rem;
@@ -1375,19 +1385,26 @@
     padding-top: 0rem;
   }
   #sec03-dining-cafe .swiper-slide img {
+    margin-top: 0;
     padding-left: 0rem;
+    padding-bottom: 3rem;
   }
   #sec03-dining-cafe .button-section {
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-left: 7rem;
   }
   #sec03-dining-cafe .button-section button {
     color: var(--white-color);
     border-color: var(--white-color);
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
   #sec03-dining-cafe .prev-circle,
   #sec03-dining-cafe .next-circle {
     display: none;
+  }
+  #sec04-events .container {
+    padding-top: 3rem;
   }
   #sec04-events h2 {
     font-size: 1.4rem;

@@ -694,7 +694,6 @@
 @media only screen and (max-width: 1280px) {
 
     #sec01-about-us {
-        height: 100%;
         .slide-text {
             padding-top: 5rem;
         }
@@ -766,6 +765,7 @@
     }
 
     #sec03-dining-cafe {
+
 
         h2 {
             font-size: 2rem;
@@ -1254,6 +1254,7 @@
     }
 
     #sec02-accomandations{
+        height: 100%;
 
         button{
             font-size: 0.65rem;
@@ -1291,7 +1292,7 @@
     }
 
     #sec03-dining-cafe {
-
+        height: 100%;
         h2 {
             font-size: 1.6rem;
         }
@@ -1353,6 +1354,7 @@
     }
 
     #sec04-events{
+        height: 100%;
         h2{
             font-size: 1.4rem;
         }
@@ -1385,6 +1387,7 @@
     }
 
     #sec05-special-offers {
+        height: 100%;
         h2 {
             font-size: 1.6rem;
         }
@@ -1452,7 +1455,7 @@
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
             bottom: var(--swiper-pagination-bottom, 8px);
-            top: 73%;
+            top: 76%;
             left: 20.1%;
             width: 60%;
         }
@@ -1496,7 +1499,7 @@
         }
 
         .slide-text {
-            padding-top: 6rem;
+            padding-top: 3rem;
             text-align: center;
 
             p {
@@ -1524,6 +1527,7 @@
         }
         .tab-content{
             margin-right: 10rem;
+            padding-top: 2.375rem;
             h2{
                 font-size: 0.8rem;
                 padding-bottom: 0.575rem;
@@ -1564,11 +1568,11 @@
         }
 
         h4 {
-            font-size: 1.1rem;
+            font-size: 0.8rem;
         }
 
         p {
-            font-size: 0.7rem;
+            font-size: 0.6rem;
         }
 
         button {
@@ -1587,18 +1591,23 @@
             padding-top: 0rem;
         }
 
+        
         .swiper-slide img {
+            margin-top: 0;
             padding-left: 0rem;
+            padding-bottom: 3rem;
         }
 
         .button-section {
-            padding-top: 3rem;
+            padding-top: 1rem;
             padding-left: 7rem;
         }
 
         .button-section button {
             color: var(--white-color);
             border-color: var(--white-color);
+            font-size: 0.6rem;
+            padding: 0.5rem 1rem 0.5rem 1rem;
         }
 
         .prev-circle,
@@ -1609,6 +1618,9 @@
     }
 
     #sec04-events{
+        .container{
+            padding-top: 3rem;
+        }
         h2{
             font-size: 1.4rem;
         }
@@ -1638,6 +1650,7 @@
                 font-size: 0.6rem;
             }
         }
+
     }
 
     #sec05-special-offers {
