@@ -852,6 +852,39 @@ header .navbar .navbar-nav .p-l-nav {
 #sec04-events .swiper-slide .date {
   color: #A59E9B;
 }
+#sec04-events .swiper-pagination-2 {
+  position: absolute;
+  bottom: 16%;
+}
+#sec04-events .swiper-pagination-2 .swiper-pagination-bullet-active {
+  background: #5E3C21;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+#sec04-events .swiper-pagination-2 .swiper-pagination-bullet-active-prev {
+  background: #fff;
+  opacity: 0.7;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+#sec04-events .swiper-pagination-2 .swiper-pagination-bullet-active-prev-prev {
+  background: #fff;
+  opacity: 0.7;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+#sec04-events .swiper-pagination-2 .swiper-pagination-bullet-active-next {
+  background: #fff;
+  opacity: 0.7;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+#sec04-events .swiper-pagination-2 .swiper-pagination-bullet-active-next-next {
+  background: #fff;
+  opacity: 0.7;
+  width: 0.7rem;
+  height: 0.7rem;
+}
 
 #sec05-special-offers {
   width: 100%;
@@ -969,6 +1002,16 @@ header .navbar .navbar-nav .p-l-nav {
 }
 
 @media only screen and (max-width: 1280px) {
+  header {
+    width: 10%;
+    left: 5%;
+  }
+  header .navbar a {
+    font-size: 0.9rem;
+  }
+  header .navbar .navbar-nav .p-l-nav {
+    padding-left: 4rem;
+  }
   #sec00-banner-page {
     width: 100%;
   }
@@ -984,6 +1027,9 @@ header .navbar .navbar-nav .p-l-nav {
     background: #F2ECE6;
     opacity: 85%;
     width: 88%;
+  }
+  #sec00-banner-page .reservationForm input {
+    font-size: 1rem;
   }
   #sec00-banner-page .reservationForm h4 {
     font-size: 0.925rem;
@@ -1136,6 +1182,19 @@ header .navbar .navbar-nav .p-l-nav {
   }
 }
 @media only screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+    left: 0%;
+  }
+  header .navbar a {
+    font-size: 0.7rem;
+  }
+  header .navbar .navbar-nav .p-l-nav {
+    padding-left: 4rem;
+  }
+  header .navbar .container-fluid {
+    gap: 0 15rem;
+  }
   #sec00-banner-page {
     width: 100%;
   }
@@ -1149,6 +1208,9 @@ header .navbar .navbar-nav .p-l-nav {
     background: #F2ECE6;
     opacity: 85%;
     width: 91%;
+  }
+  #sec00-banner-page .reservationForm input {
+    font-size: 0.8rem;
   }
   #sec00-banner-page .reservationForm h4 {
     font-size: 0.725rem;
@@ -1318,6 +1380,12 @@ header .navbar .navbar-nav .p-l-nav {
   }
 }
 @media only screen and (max-width: 768px) {
+  header .navbar .container-fluid {
+    gap: 0 34rem;
+  }
+  header .navbar button {
+    border-color: #805725;
+  }
   #sec00-banner-page .slide-text span {
     font-size: 3rem;
   }
@@ -1335,7 +1403,7 @@ header .navbar .navbar-nav .p-l-nav {
   #sec01-about-us .swiper-pagination-custom,
   #sec01-about-us .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    top: 70%;
+    top: 74%;
     left: 31.1%;
     width: 60%;
   }
@@ -1451,6 +1519,12 @@ header .navbar .navbar-nav .p-l-nav {
   }
 }
 @media only screen and (max-width: 540px) {
+  header .navbar .container-fluid {
+    gap: 0 19.5rem;
+  }
+  header .navbar button {
+    border-color: #805725;
+  }
   #sec00-banner-page .slide-text span {
     font-size: 2.2rem;
   }
@@ -1465,7 +1539,7 @@ header .navbar .navbar-nav .p-l-nav {
   #sec01-about-us .swiper-pagination-custom,
   #sec01-about-us .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
-    top: 78%;
+    top: 77%;
     left: 20.1%;
     width: 60%;
   }
@@ -1494,14 +1568,17 @@ header .navbar .navbar-nav .p-l-nav {
   #sec01-about-us .swiper-slide img {
     padding-left: 1.5rem;
   }
-  #sec01-about-us .slide-text {
+  #sec01-about-us .swiper-slide img {
+    height: 20%;
+  }
+  #sec01-about-us .slide-text-6 {
     padding-left: 1.5rem;
     padding-top: 2rem;
   }
-  #sec01-about-us .slide-text p {
+  #sec01-about-us .slide-text-6 p {
     padding-top: 1rem;
   }
-  #sec01-about-us .slide-text .button-section {
+  #sec01-about-us .slide-text-6 .button-section {
     padding-bottom: 1rem;
   }
   #sec02-accomandations {
@@ -1511,6 +1588,7 @@ header .navbar .navbar-nav .p-l-nav {
     font-size: 0.65rem;
   }
   #sec02-accomandations #roomTabsContent {
+    padding-top: 3rem;
     padding-left: 2rem;
   }
   #sec02-accomandations .border-above {
@@ -1586,10 +1664,22 @@ header .navbar .navbar-nav .p-l-nav {
     border-color: var(--white-color);
   }
   #sec03-dining-cafe .content-wrapper .d-flex {
-    padding-left: 13.5rem;
+    padding-left: 13.2rem;
+  }
+  #sec03-dining-cafe .content-wrapper .slide-text-5 {
+    padding-top: 2rem;
+  }
+  #sec03-dining-cafe .content-wrapper .button-section {
+    padding-top: 1rem;
   }
   #sec04-events {
     height: 100%;
+  }
+  #sec04-events .bg-image {
+    height: 100%;
+  }
+  #sec04-events .row .p-t-60 {
+    padding-top: 0;
   }
   #sec04-events h2 {
     font-size: 1.4rem;
@@ -1614,6 +1704,9 @@ header .navbar .navbar-nav .p-l-nav {
   }
   #sec04-events .swiper-slide p {
     font-size: 0.6rem;
+  }
+  #sec04-events .swiper-pagination-2 {
+    bottom: -5%;
   }
   #sec05-special-offers {
     height: 100%;
@@ -1660,6 +1753,12 @@ header .navbar .navbar-nav .p-l-nav {
   }
 }
 @media only screen and (max-width: 348px) {
+  header .navbar .container-fluid {
+    gap: 0 7.5rem;
+  }
+  header .navbar button {
+    border-color: #805725;
+  }
   #sec00-banner-page .slide-text span {
     font-size: 1.8rem;
   }
@@ -1797,6 +1896,9 @@ header .navbar .navbar-nav .p-l-nav {
   #sec03-dining-cafe .prev-circle,
   #sec03-dining-cafe .next-circle {
     display: none;
+  }
+  #sec03-dining-cafe .slide-content .p-t-110 {
+    padding-top: 0rem;
   }
   #sec04-events .container {
     padding-top: 3rem;

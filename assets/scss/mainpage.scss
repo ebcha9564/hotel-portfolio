@@ -84,6 +84,7 @@ header {
         border: none;
         width: 100%;
       }
+      
     }
 
     .navbar-nav{
@@ -851,6 +852,43 @@ header {
             color: #A59E9B;
         }
     }
+
+    .swiper-pagination-2{
+        position: absolute;
+        bottom: 16%;
+
+        .swiper-pagination-bullet-active{
+            background: #5E3C21;
+            width: 0.7rem;
+            height: 0.7rem;
+        }
+
+        .swiper-pagination-bullet-active-prev{
+            background: #fff;
+            opacity: 0.7;
+                        width: 0.7rem;
+            height: 0.7rem;
+        }
+        .swiper-pagination-bullet-active-prev-prev{
+            background: #fff;
+            opacity: 0.7;
+                        width: 0.7rem;
+            height: 0.7rem;
+        }        
+        
+        .swiper-pagination-bullet-active-next{
+             background: #fff;
+            opacity: 0.7;   
+                        width: 0.7rem;
+            height: 0.7rem;        
+        }
+        .swiper-pagination-bullet-active-next-next{
+             background: #fff;
+            opacity: 0.7;    
+                        width: 0.7rem;
+            height: 0.7rem;       
+        }
+    }
 }
 
 #sec05-special-offers {
@@ -989,6 +1027,24 @@ header {
 
 @media only screen and (max-width: 1280px) {
 
+    header{
+        width: 10%;
+        left: 5%;
+
+        .navbar{
+            a{
+                font-size: 0.9rem;
+            }
+            .navbar-nav{
+                .p-l-nav{
+                    padding-left: 4rem;
+                }
+            }
+        }
+
+    }
+
+
     #sec00-banner-page{
         width: 100%;
         .slide-text{
@@ -1005,6 +1061,10 @@ header {
         background: #F2ECE6;
         opacity: 85%;
         width: 88%;
+
+        input{
+            font-size: 1rem;
+        }
 
         h4{
             font-size: 0.925rem;
@@ -1210,6 +1270,28 @@ header {
 }
 
 @media only screen and (max-width: 1024px) {
+
+    header{
+        width: 100%;
+        left: 0%;
+
+        .navbar{
+            a{
+                font-size: 0.7rem;
+            }
+
+            .navbar-nav{
+                .p-l-nav{
+                    padding-left: 4rem;
+                }
+            }
+            
+            .container-fluid{
+                gap: 0 15rem;
+            }
+        }
+
+    }
     
         #sec00-banner-page{
         width: 100%;
@@ -1225,6 +1307,10 @@ header {
         background: #F2ECE6;
         opacity: 85%;
         width: 91%;
+
+        input{
+            font-size: 0.8rem;
+        }
 
         h4{
             font-size: 0.725rem;
@@ -1449,6 +1535,18 @@ header {
 
 @media only screen and (max-width: 768px) {
 
+    header{
+        .navbar{
+            .container-fluid{
+                gap: 0 34rem;
+            }
+
+            button{
+                border-color: #805725;
+            }
+        }
+    }
+
     #sec00-banner-page{
 
         .slide-text{
@@ -1472,7 +1570,7 @@ header {
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
             bottom: var(--swiper-pagination-bottom, 8px);
-            top: 70%;
+            top: 74%;
             left: 31.1%;
             width: 60%;
         }
@@ -1631,12 +1729,25 @@ header {
 
 @media only screen and (max-width: 540px) {
 
+        header{
+        .navbar{
+            .container-fluid{
+                gap: 0 19.5rem;
+            }
+
+            button{
+                border-color: #805725;
+            }
+        }
+    }
+
     #sec00-banner-page{
         .slide-text{
             span{
                 font-size: 2.2rem;
             }
         }
+        
     }
 
     #sec01-about-us {
@@ -1650,7 +1761,7 @@ header {
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
             bottom: var(--swiper-pagination-bottom, 8px);
-            top: 78%;
+            top: 77%;
             left: 20.1%;
             width: 60%;
         }
@@ -1688,7 +1799,13 @@ header {
             padding-left: 1.5rem;
         }
 
-        .slide-text {
+        .swiper-slide{
+            img{
+                height: 20%;
+            }
+        }
+
+        .slide-text-6{
             padding-left: 1.5rem;
             padding-top: 2rem;
 
@@ -1710,6 +1827,7 @@ header {
             font-size: 0.65rem;
         }
         #roomTabsContent{
+            padding-top: 3rem;
             padding-left: 2rem;
         }
 
@@ -1799,12 +1917,31 @@ header {
         }
 
         .content-wrapper .d-flex {
-            padding-left: 13.5rem;
+            padding-left: 13.2rem;
+        }
+
+        .content-wrapper{
+            .slide-text-5{
+                padding-top: 2rem;
+            }
+            .button-section{
+                padding-top: 1rem;
+            }
         }
     }
 
     #sec04-events{
+
         height: 100%;
+        .bg-image{
+            height: 100%;
+        }
+        .p-t-120{}
+        .row{
+            .p-t-60{
+                padding-top: 0;
+            }
+        }
         h2{
             font-size: 1.4rem;
         }
@@ -1833,6 +1970,10 @@ header {
             p{
                 font-size: 0.6rem;
             }
+        }
+
+        .swiper-pagination-2{
+            bottom: -5%;
         }
     }
 
@@ -1894,6 +2035,18 @@ header {
 }
 
 @media only screen and (max-width: 348px) {
+
+        header{
+        .navbar{
+            .container-fluid{
+                gap: 0 7.5rem;
+            }
+
+            button{
+                border-color: #805725;
+            }
+        }
+    }
     #sec00-banner-page{
         .slide-text{
             span{
@@ -2070,6 +2223,12 @@ header {
         .prev-circle,
         .next-circle {
             display: none;
+        }
+
+        .slide-content{
+            .p-t-110{
+                padding-top: 0rem;
+            }
         }
 
     }

@@ -1,3 +1,5 @@
+
+
 $(function() {
   $('input[name="daterange"]').daterangepicker({
     opens: 'right',
@@ -136,9 +138,9 @@ var swiper = new Swiper(".mySwiper-2", {
       slidesPerView: 3,
       spaceBetween: 30,
       loop: true,
-      navigation: {
-        nextEl: ".next-1",
-        prevEl: ".prev-1",
+      pagination : {
+        el: ".swiper-pagination-2",
+        dynamicBullets: true,
       },
 
     breakpoints: {
