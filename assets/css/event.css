@@ -1,0 +1,158 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("//fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
+:root {
+  --white-color: #FFF4EE;
+  --black-color: #1F1B1B;
+  --navy-color: #0A1F40;
+  --banner-font-size: 4.5rem;
+  --subtitle-font-size: 2.25rem;
+  --banner-letter-spacing: -0.02em;
+  --banner-line-height: 1;
+  --banner-font-weight: 600;
+  --title-font-family: "Nanum Myeongjo", serif;
+  --body-font-family: "Pretendard";
+  --nav-font-size: 1.125rem;
+  --booking-font-size: 1.25rem;
+  --subtitle-font-size: 1.75rem;
+  --sec-title-font-size: 2.25rem;
+  --sec-body-font-size: 1.125rem;
+  --lightest-font-weight: 300;
+  --light-font-weight: 300;
+  --regular-font-weight: 400;
+  --semibold-font-weight: 500;
+  --bold-font-weight: 600;
+  --sec05-font-size: 1rem;
+}
+
+.m-r-1 {
+  margin-right: 1rem;
+}
+
+.p-t-14 {
+  padding-top: 0.875rem;
+}
+
+.p-r-16 {
+  padding-right: 3.25rem;
+}
+
+.p-t-16 {
+  padding-top: 1rem;
+}
+
+.p-t-18 {
+  padding-top: 1.125rem;
+}
+
+.p-t-20 {
+  padding-top: 1.25rem;
+}
+
+.p-t-30 {
+  padding-top: 1.7rem;
+}
+
+.bg-none {
+  background: none;
+}
+
+.p-b-30 {
+  padding-bottom: 1.7rem;
+}
+
+.p-l-65 {
+  padding-left: 4.0625rem;
+}
+
+.p-l-80 {
+  padding-left: 4.5rem;
+}
+
+.p-t-60 {
+  padding-top: 3.75rem;
+}
+
+.p-l-60 {
+  padding-left: 3.75rem;
+}
+
+.p-t-90 {
+  padding-top: 5.625rem;
+}
+
+.p-t-120 {
+  padding-top: 7.5rem;
+}
+
+.p-t-110 {
+  padding-top: 6.875rem;
+}
+
+.p-r-100 {
+  padding-right: 6.25rem;
+}
+
+.p-r-200 {
+  padding-right: 16.5rem;
+}
+
+.p-b-50 {
+  padding-bottom: 3.125rem;
+}
+
+.bg-standard {
+  background: url("../images/room-bg1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-premier {
+  background: url("../images/room-bg2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-family {
+  background: url("../images/room-bg3.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-king {
+  background: url("../images/room-bg4.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#sec01-title {
+  width: 100%;
+  height: 45vh;
+  background: url("../images/event-page-bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#sec01-title .container {
+  width: 100%;
+  height: 100vh;
+}
+#sec01-title h2 {
+  color: var(--white-color);
+  font-family: var(--title-font-family);
+  font-size: 3.25rem;
+  letter-spacing: 0.03em;
+  font-weight: var(--bold-font-weight);
+  padding-top: 9rem;
+}
+#sec01-title p {
+  color: var(--white-color);
+  font-family: var(--body-font-family);
+  font-size: 1.25rem;
+  letter-spacing: 0.03em;
+  font-weight: var(--light-font-weight);
+  padding-top: 2rem;
+}/*# sourceMappingURL=event.css.map */
