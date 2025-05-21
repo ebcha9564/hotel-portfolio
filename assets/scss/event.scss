@@ -1,6 +1,6 @@
 @import 'common.scss';
 
-#sec01-title{
+#sec01-title {
     width: 100%;
     height: 45vh;
     background: url('../images/event-page-bg2.png');
@@ -8,12 +8,12 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    .container{
+    .container {
         width: 100%;
         height: 100vh;
     }
 
-    h2{
+    h2 {
         color: var(--white-color);
         font-family: var(--title-font-family);
         font-size: 3.25rem;
@@ -22,12 +22,244 @@
         padding-top: 9rem;
     }
 
-    p{
+    p {
         color: var(--white-color);
         font-family: var(--body-font-family);
         font-size: 1.25rem;
         letter-spacing: 0.03em;
         font-weight: var(--light-font-weight);
         padding-top: 2rem;
+    }
+}
+
+#sec02-slider {
+    width: 100%;
+    height: 100vh;
+
+    .title-content-header {
+        padding-top: 3rem;
+
+        h2 {
+            font-family: var(--title-font-family);
+            font-size: 2.2rem;
+            color: var(--navy-color);
+            font-weight: var(--bold-font-weight);
+            letter-spacing: 0.03em;
+            padding-bottom: 0.05rem;
+        }
+
+        p {
+            font-family: var(--body-font-family);
+            font-size: 1.125rem;
+            color: var(--black-color);
+            font-weight: var(--regular-font-weight);
+            letter-spacing: 0.03em;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .swiper-slide {
+        position: relative;
+
+        .slide-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+
+            img {
+                border-radius: 3rem;
+                z-index: 1;
+            }
+        }
+
+        .text-on-image {
+            position: absolute;
+            left: 5%;
+            bottom: 10%;
+            z-index: 10;
+
+            .button-content {
+                gap: 0 0.5rem;
+                padding-bottom: 0.2rem;
+
+                p {
+                    font-family: var(--body-font-family);
+                    color: var(--white-color);
+                    font-weight: var(--regular-font-weight);
+                    font-size: 1rem;
+                    letter-spacing: 0.05em;
+                    padding-top: 0.1rem;
+                    margin-bottom: 0;
+                }
+            }
+
+            .title-content {
+                padding-bottom: 0.2rem;
+
+                h2 {
+                    font-family: var(--body-font-family);
+                    color: var(--white-color);
+                    font-weight: var(--regular-font-weight);
+                    font-size: 1.8rem;
+                    letter-spacing: 0.05em;
+                }
+            }
+
+            .calender-content {
+                gap: 0 0.5rem;
+
+                p {
+                    font-family: var(--body-font-family);
+                    color: var(--white-color);
+                    font-weight: var(--regular-font-weight);
+                    font-size: 1rem;
+                    letter-spacing: 0.05em;
+                    padding-top: 0.1rem;
+                }
+            }
+
+        }
+    }
+
+    .swiper-button-prev {
+        color: var(--white-color);
+        left: 18%;
+        top: 97%;
+    }
+
+    .swiper-button-next {
+        color: var(--white-color);
+        right: 18%;
+        top: 97%;
+    }
+
+    .swiper-pagination {
+        bottom: -20%;
+    }
+
+    .swiper-pagination-bullet {
+        background: #fff;
+    }
+}
+
+#sec03-event-contents {
+    width: 100%;
+    height: 170vh;
+
+    .title-content-header {
+        padding-top: 1rem;
+
+        h2 {
+            font-family: var(--title-font-family);
+            font-size: 2.2rem;
+            color: var(--navy-color);
+            font-weight: var(--bold-font-weight);
+            letter-spacing: 0.03em;
+            padding-bottom: 0.05rem;
+        }
+
+        p {
+            font-family: var(--body-font-family);
+            font-size: 1.125rem;
+            color: var(--black-color);
+            font-weight: var(--regular-font-weight);
+            letter-spacing: 0.03em;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .event-container {
+        cursor: pointer;
+
+        .img-content {
+            width: 100%;
+        }
+
+        .text-content {
+            .span-content {
+                padding-top: 1rem;
+
+                span {
+                    font-size: 1.125rem;
+                    font-family: var(--body-font-family);
+                    font-weight: var(--regular-font-weight);
+                    color: var(--black-color);
+                    padding-right: 0.5rem;
+                    letter-spacing: 0.05em;
+                }
+            }
+
+            .title-content {
+                padding-top: 0.5rem;
+
+                h2 {
+                    font-size: 1.5rem;
+                    font-family: var(--body-font-family);
+                    font-weight: var(--semibold-font-weight);
+                    color: var(--navy-color);
+                    letter-spacing: 0.03em;
+                }
+
+                p {
+                    font-size: 1.125rem;
+                    font-family: var(--body-font-family);
+                    font-weight: var(--regular-font-weight);
+                    color: #444444;
+                    letter-spacing: 0.03em;
+                }
+            }
+
+            .button-content {
+                gap: 0 1.5rem;
+
+                .time-content {
+                    border: 1px solid var(--black-color);
+                    border-radius: 2rem;
+                    padding: 0.3125rem 0.9375rem;
+
+                    span {
+                        font-size: 1rem;
+                        color: var(--black-color);
+                        font-family: var(--body-font-family);
+                        font-weight: var(--regular-font-weight);
+                        letter-spacing: 0.03em;
+                    }
+                }
+
+                .guest-content {
+                    border: 1px solid var(--black-color);
+                    border-radius: 2rem;
+                    padding: 0.3125rem 0.9375rem 0.3125rem 0.5375rem;
+
+                    span {
+                        font-size: 1rem;
+                        color: var(--black-color);
+                        font-family: var(--body-font-family);
+                        font-weight: var(--regular-font-weight);
+                        letter-spacing: 0.03em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #sec03-event-contents {
+        .row {
+            gap: 0 10rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #sec03-event-contents {
+        .row {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
