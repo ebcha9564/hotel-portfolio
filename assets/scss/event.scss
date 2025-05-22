@@ -10,7 +10,6 @@
 
     .container {
         width: 100%;
-        height: 100vh;
     }
 
     h2 {
@@ -27,7 +26,7 @@
         font-family: var(--body-font-family);
         font-size: 1.25rem;
         letter-spacing: 0.03em;
-        font-weight: var(--light-font-weight);
+        font-weight: var(--lightest-font-weight);
         padding-top: 2rem;
     }
 }
@@ -52,7 +51,7 @@
             font-family: var(--body-font-family);
             font-size: 1.125rem;
             color: var(--black-color);
-            font-weight: var(--regular-font-weight);
+            font-weight: var(--lightest-font-weight);
             letter-spacing: 0.03em;
             padding-bottom: 2rem;
         }
@@ -125,13 +124,13 @@
     .swiper-button-prev {
         color: var(--white-color);
         left: 18%;
-        top: 97%;
+        top: 104%;
     }
 
     .swiper-button-next {
         color: var(--white-color);
         right: 18%;
-        top: 97%;
+        top: 104%;
     }
 
     .swiper-pagination {
@@ -204,7 +203,7 @@
                 p {
                     font-size: 1.125rem;
                     font-family: var(--body-font-family);
-                    font-weight: var(--regular-font-weight);
+                    font-weight: var(--lightest-font-weight);
                     color: #444444;
                     letter-spacing: 0.03em;
                 }

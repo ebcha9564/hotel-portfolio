@@ -136,7 +136,7 @@
 #sec01-title {
   width: 100%;
   height: 45vh;
-  background: url("../images/event-page-bg2.png");
+  background: url("../images/special-offer-bg1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,6 +164,17 @@
 #sec02-slider {
   width: 100%;
   height: 100vh;
+  position: relative;
+}
+#sec02-slider .swiper-button-next {
+  top: 50%;
+  right: 10%;
+  color: #824D1E;
+}
+#sec02-slider .swiper-button-prev {
+  top: 50%;
+  left: 10%;
+  color: #824D1E;
 }
 #sec02-slider .title-content-header {
   padding-top: 3rem;
@@ -184,84 +195,41 @@
   letter-spacing: 0.03em;
   padding-bottom: 2rem;
 }
-#sec02-slider .swiper-slide {
-  position: relative;
-}
-#sec02-slider .swiper-slide .slide-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-}
-#sec02-slider .swiper-slide .slide-image img {
-  border-radius: 3rem;
-  z-index: 1;
-}
-#sec02-slider .swiper-slide .text-on-image {
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
-  z-index: 10;
-}
-#sec02-slider .swiper-slide .text-on-image .button-content {
-  gap: 0 0.5rem;
-  padding-bottom: 0.2rem;
-}
-#sec02-slider .swiper-slide .text-on-image .button-content p {
-  font-family: var(--body-font-family);
-  color: var(--white-color);
-  font-weight: var(--regular-font-weight);
-  font-size: 1rem;
+#sec02-slider .swiper-slide h2 {
+  font-family: var(--title-font-family);
+  font-size: 1.5rem;
+  color: var(--black-color);
+  font-weight: var(--extra-bold-font-weight);
   letter-spacing: 0.05em;
-  padding-top: 0.1rem;
-  margin-bottom: 0;
-}
-#sec02-slider .swiper-slide .text-on-image .title-content {
-  padding-bottom: 0.2rem;
-}
-#sec02-slider .swiper-slide .text-on-image .title-content h2 {
-  font-family: var(--body-font-family);
-  color: var(--white-color);
-  font-weight: var(--regular-font-weight);
-  font-size: 1.8rem;
-  letter-spacing: 0.05em;
-}
-#sec02-slider .swiper-slide .text-on-image .calender-content {
-  gap: 0 0.5rem;
-}
-#sec02-slider .swiper-slide .text-on-image .calender-content p {
-  font-family: var(--body-font-family);
-  color: var(--white-color);
-  font-weight: var(--regular-font-weight);
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-  padding-top: 0.1rem;
-}
-#sec02-slider .swiper-button-prev {
-  color: var(--white-color);
-  left: 18%;
-  top: 104%;
-}
-#sec02-slider .swiper-button-next {
-  color: var(--white-color);
-  right: 18%;
-  top: 104%;
-}
-#sec02-slider .swiper-pagination {
-  bottom: -20%;
-}
-#sec02-slider .swiper-pagination-bullet {
-  background: #fff;
-}
-
-#sec03-event-contents {
-  width: 100%;
-  height: 170vh;
-}
-#sec03-event-contents .title-content-header {
   padding-top: 1rem;
 }
-#sec03-event-contents .title-content-header h2 {
+#sec02-slider .swiper-slide p {
+  font-family: var(--body-font-family);
+  font-size: 1.125rem;
+  color: var(--black-color);
+  font-weight: var(--lightest-font-weight);
+  letter-spacing: 0.03em;
+}
+#sec02-slider .swiper-slide .calendar-table {
+  gap: 0 0.5rem;
+}
+#sec02-slider .swiper-slide .date {
+  color: #444;
+}
+#sec02-slider .swiper-pagination-fraction {
+  top: 83%;
+  color: #824D1E;
+  font-size: 1.125rem;
+  font-family: var(--body-font-family);
+  font-weight: var(--regular-font-weight);
+  letter-spacing: 0.03em;
+}
+
+#sec03-offer-content {
+  width: 100%;
+  height: 250vh;
+}
+#sec03-offer-content .sec03-title h2 {
   font-family: var(--title-font-family);
   font-size: 2.2rem;
   color: var(--navy-color);
@@ -269,85 +237,92 @@
   letter-spacing: 0.03em;
   padding-bottom: 0.05rem;
 }
-#sec03-event-contents .title-content-header p {
+#sec03-offer-content .sec03-title p {
   font-family: var(--body-font-family);
   font-size: 1.125rem;
   color: var(--black-color);
-  font-weight: var(--regular-font-weight);
+  font-weight: var(--lightest-font-weight);
   letter-spacing: 0.03em;
   padding-bottom: 2rem;
 }
-#sec03-event-contents .event-container {
+#sec03-offer-content .tab-bar ul {
+  list-style: none;
+  justify-content: right;
+}
+#sec03-offer-content .tab-bar ul li {
+  font-size: 1rem;
+  font-family: var(--body-font-family);
+  font-weight: var(--regular-font-weight);
+  color: var(--black-color);
   cursor: pointer;
 }
-#sec03-event-contents .event-container .img-content {
-  width: 100%;
+#sec03-offer-content .tab-bar ul .border-right {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-right: 1px solid #444;
 }
-#sec03-event-contents .event-container .text-content .span-content {
+#sec03-offer-content .tab-bar ul .padding-left-element {
+  padding-left: 1rem;
+}
+#sec03-offer-content .img-content {
+  position: relative;
+}
+#sec03-offer-content .img-content .category {
+  position: absolute;
+  width: 8rem;
+  left: 0;
+  top: 0;
+  background: #F2ECE6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec03-offer-content .img-content .category p {
+  font-family: var(--body-font-family);
+  font-size: 1rem;
+  font-weight: var(--regular-font-weight);
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  padding-top: 0.9rem;
+}
+#sec03-offer-content .text-content-offer h3 {
+  font-size: 1.8rem;
+  font-family: var(--title-font-family);
+  color: #5E3C21;
+  font-weight: var(--extra-bold-font-weight);
+  letter-spacing: 0.03em;
+  padding-top: 1.5rem;
+}
+#sec03-offer-content .text-content-offer p {
+  font-size: 1.125rem;
+  font-family: var(--body-font-family);
+  color: #444;
+  font-weight: var(--light-font-weight);
+  letter-spacing: 0.03em;
   padding-top: 1rem;
 }
-#sec03-event-contents .event-container .text-content .span-content span {
-  font-size: 1.125rem;
-  font-family: var(--body-font-family);
-  font-weight: var(--regular-font-weight);
-  color: var(--black-color);
-  padding-right: 0.5rem;
-  letter-spacing: 0.05em;
+#sec03-offer-content .period {
+  gap: 0 2rem;
+  padding-top: 2rem;
 }
-#sec03-event-contents .event-container .text-content .title-content {
-  padding-top: 0.5rem;
-}
-#sec03-event-contents .event-container .text-content .title-content h2 {
-  font-size: 1.5rem;
-  font-family: var(--body-font-family);
-  font-weight: var(--semibold-font-weight);
-  color: var(--navy-color);
-  letter-spacing: 0.03em;
-}
-#sec03-event-contents .event-container .text-content .title-content p {
-  font-size: 1.125rem;
-  font-family: var(--body-font-family);
-  font-weight: var(--lightest-font-weight);
-  color: #444444;
-  letter-spacing: 0.03em;
-}
-#sec03-event-contents .event-container .text-content .button-content {
-  gap: 0 1.5rem;
-}
-#sec03-event-contents .event-container .text-content .button-content .time-content {
-  border: 1px solid var(--black-color);
-  border-radius: 2rem;
-  padding: 0.3125rem 0.9375rem;
-}
-#sec03-event-contents .event-container .text-content .button-content .time-content span {
+#sec03-offer-content .period p {
   font-size: 1rem;
-  color: var(--black-color);
   font-family: var(--body-font-family);
+  color: var(--black-color);
   font-weight: var(--regular-font-weight);
   letter-spacing: 0.03em;
 }
-#sec03-event-contents .event-container .text-content .button-content .guest-content {
-  border: 1px solid var(--black-color);
-  border-radius: 2rem;
-  padding: 0.3125rem 0.9375rem 0.3125rem 0.5375rem;
+#sec03-offer-content .period p span {
+  font-weight: var(--bold-font-weight);
+  padding-right: 1rem;
+  color: #824D1E;
 }
-#sec03-event-contents .event-container .text-content .button-content .guest-content span {
-  font-size: 1rem;
-  color: var(--black-color);
+#sec03-offer-content .period .button-section button {
+  background: none;
+  border: 2px solid #824D1E;
+  padding: 0.8rem 1.7rem;
   font-family: var(--body-font-family);
-  font-weight: var(--regular-font-weight);
+  font-size: 1.125rem;
+  font-weight: var(--light-font-weight);
   letter-spacing: 0.03em;
-}
-
-@media screen and (max-width: 1400px) {
-  #sec03-event-contents .row {
-    gap: 0 10rem;
-  }
-}
-@media screen and (max-width: 1024px) {
-  #sec03-event-contents .row {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}/*# sourceMappingURL=event.css.map */
+}/*# sourceMappingURL=offer.css.map */

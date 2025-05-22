@@ -100,6 +100,10 @@
   padding-bottom: 3.125rem;
 }
 
+.p-b-160 {
+  padding-bottom: 10rem;
+}
+
 .bg-standard {
   background: url("../images/room-bg1.png");
   background-size: cover;
