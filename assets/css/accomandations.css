@@ -1,0 +1,408 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("//fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
+:root {
+  --white-color: #FFF4EE;
+  --black-color: #1F1B1B;
+  --navy-color: #0A1F40;
+  --banner-font-size: 4.5rem;
+  --subtitle-font-size: 2.25rem;
+  --banner-letter-spacing: -0.02em;
+  --banner-line-height: 1;
+  --banner-font-weight: 600;
+  --title-font-family: "Nanum Myeongjo", serif;
+  --body-font-family: "Pretendard";
+  --nav-font-size: 1.125rem;
+  --booking-font-size: 1.25rem;
+  --subtitle-font-size: 1.75rem;
+  --sec-title-font-size: 2.25rem;
+  --sec-body-font-size: 1.125rem;
+  --lightest-font-weight: 200;
+  --light-font-weight: 300;
+  --regular-font-weight: 400;
+  --semibold-font-weight: 500;
+  --bold-font-weight: 600;
+  --extra-bold-font-weight: 700;
+  --sec05-font-size: 1rem;
+}
+
+.m-r-1 {
+  margin-right: 1rem;
+}
+
+.p-t-14 {
+  padding-top: 0.875rem;
+}
+
+.p-r-16 {
+  padding-right: 3.25rem;
+}
+
+.p-t-16 {
+  padding-top: 1rem;
+}
+
+.p-t-18 {
+  padding-top: 1.125rem;
+}
+
+.p-t-20 {
+  padding-top: 1.25rem;
+}
+
+.p-t-30 {
+  padding-top: 1.7rem;
+}
+
+.bg-none {
+  background: none;
+}
+
+.p-b-30 {
+  padding-bottom: 1.7rem;
+}
+
+.p-l-65 {
+  padding-left: 4.0625rem;
+}
+
+.p-l-80 {
+  padding-left: 4.5rem;
+}
+
+.p-t-60 {
+  padding-top: 3.75rem;
+}
+
+.p-l-60 {
+  padding-left: 3.75rem;
+}
+
+.p-t-90 {
+  padding-top: 5.625rem;
+}
+
+.p-t-120 {
+  padding-top: 7.5rem;
+}
+
+.p-t-110 {
+  padding-top: 6.875rem;
+}
+
+.p-r-100 {
+  padding-right: 6.25rem;
+}
+
+.p-r-200 {
+  padding-right: 16.5rem;
+}
+
+.p-b-50 {
+  padding-bottom: 3.125rem;
+}
+
+.p-b-160 {
+  padding-bottom: 10rem;
+}
+
+.bg-standard {
+  background: url("../images/room-bg1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-premier {
+  background: url("../images/room-bg2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-family {
+  background: url("../images/room-bg3.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-king {
+  background: url("../images/room-bg4.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#sec-kv {
+  width: 100%;
+  height: 45vh;
+  background: url("../images/accomandations-kv.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#sec-kv h2 {
+  color: var(--white-color);
+  font-family: var(--title-font-family);
+  font-size: 3rem;
+  letter-spacing: 0.03em;
+  font-weight: var(--bold-font-weight);
+  padding-top: 9rem;
+}
+#sec-kv p {
+  color: var(--white-color);
+  font-family: var(--body-font-family);
+  font-size: 1.25rem;
+  letter-spacing: 0.03em;
+  font-weight: var(--lightest-font-weight);
+  padding-top: 2rem;
+}
+
+#sec01-room-description {
+  width: 100%;
+  height: 90vh;
+}
+#sec01-room-description .slider-for img {
+  width: 100%;
+}
+#sec01-room-description .bg-brown {
+  background: #f2ece6;
+  opacity: 0.8;
+}
+#sec01-room-description .slick-dots li.slick-active button:before {
+  opacity: 0.65;
+  color: #824d1e;
+}
+#sec01-room-description .slick-dots li button:before {
+  font-size: 0.6rem;
+  color: #824d1e;
+  padding-top: 1rem;
+}
+#sec01-room-description .slider-nav .image-bottom {
+  padding-right: 1rem;
+}
+#sec01-room-description .slider-nav img {
+  width: 100%;
+  height: 150px;
+}
+#sec01-room-description .room-title-content .border-bottom-title {
+  border-bottom: 1px solid #6e6e6e;
+}
+#sec01-room-description .room-title-content .border-bottom-title h2 {
+  font-family: var(--title-font-family);
+  font-size: 1.75rem;
+  color: #000;
+  font-weight: var(--extra-bold-font-weight);
+  padding-bottom: 1rem;
+}
+#sec01-room-description .room-title-content .price-section h4 {
+  font-family: var(--body-font-family);
+  font-size: 1.75rem;
+  color: #000;
+  font-weight: var(--regular-font-weight);
+  letter-spacing: 0.05em;
+}
+#sec01-room-description .room-title-content .price-section h4 span {
+  color: #5e3c21;
+}
+#sec01-room-description .room-title-content .content-section {
+  padding-top: 1rem;
+}
+#sec01-room-description .room-title-content .content-section p {
+  font-size: 1.125rem;
+  color: #000;
+  font-family: var(--body-font-family);
+  font-weight: var(--lightest-font-weight);
+  letter-spacing: 0.03em;
+}
+#sec01-room-description .room-title-content .component-section {
+  gap: 0 1rem;
+}
+#sec01-room-description .room-title-content .component-section .wifi,
+#sec01-room-description .room-title-content .component-section .mountain {
+  gap: 0 0.8rem;
+  background: #fff;
+  border-radius: 30px;
+  padding: 0.8rem 1.5rem 0rem 1.5rem;
+}
+#sec01-room-description .room-title-content .component-section .wifi p,
+#sec01-room-description .room-title-content .component-section .mountain p {
+  padding-top: 0.1rem;
+  font-size: 1rem;
+  color: var(--black-color);
+  font-weight: var(--semibold-font-weight);
+}
+
+#sec02-room-tab {
+  width: 100%;
+  height: 80vh;
+}
+#sec02-room-tab .row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+#sec02-room-tab .make-table {
+  display: table;
+  table-layout: fixed;
+  border: 1px solid #e5e7eb;
+}
+#sec02-room-tab .make-table .border-right {
+  border-right: 1px solid #e5e7eb;
+}
+#sec02-room-tab .make-table .first-col {
+  background: #824d1e;
+}
+#sec02-room-tab .make-table .col-md-3 {
+  display: table-cell;
+}
+#sec02-room-tab .make-table h3 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.2rem;
+  font-size: 1.25rem;
+  font-family: var(--title-font-family);
+}
+#sec02-room-tab .make-table h3 .first-child {
+  color: var(--white-color);
+}
+#sec02-room-tab .make-table h3 a {
+  color: #824d1e;
+  text-decoration: none;
+}
+#sec02-room-tab .describe-room {
+  border-bottom: 1px solid #e5e7eb;
+}
+#sec02-room-tab .describe-room h2 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 1.75rem;
+  font-family: var(--title-font-family);
+  letter-spacing: 0.03em;
+  color: var(--navy-color);
+  font-weight: var(--bold-font-weight);
+}
+#sec02-room-tab .describe-room p {
+  margin: 0;
+  font-size: 1.125rem;
+  font-family: var(--body-font-family);
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  font-weight: var(--lightest-font-weight);
+  line-height: 150%;
+  padding-bottom: 2rem;
+}
+#sec02-room-tab .detail-component {
+  border-bottom: 1px solid #e5e7eb;
+}
+#sec02-room-tab .detail-component .details {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+#sec02-room-tab .detail-component .details h4 {
+  font-size: 1.25rem;
+  font-family: var(--title-font-family);
+  letter-spacing: 0.03em;
+  color: var(--navy-color);
+  font-weight: var(--bold-font-weight);
+}
+#sec02-room-tab .detail-component .details p {
+  font-size: 1rem;
+  font-family: var(--body-font-family);
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  font-weight: var(--light-font-weight);
+}
+#sec02-room-tab .button-section {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec02-room-tab .button-section button {
+  font-size: 1rem;
+  color: var(--white-color);
+  font-family: var(--body-font-family);
+  font-weight: var(--regular-font-weight);
+  border: none;
+  background: #824d1e;
+  padding: 0.8rem 1.7rem;
+}
+
+#sec03-amenities {
+  width: 100%;
+  height: 58vh;
+}
+#sec03-amenities .title-amenities {
+  border-bottom: 1px solid #e5e7eb;
+}
+#sec03-amenities .title-amenities h2 {
+  font-size: 1.75rem;
+  font-family: var(--title-font-family);
+  letter-spacing: 0.03em;
+  color: var(--navy-color);
+  font-weight: var(--bold-font-weight);
+  padding-bottom: 2.5rem;
+}
+#sec03-amenities .accordion button {
+  font-size: 1.125rem;
+  font-family: var(--body-font-family);
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  font-weight: var(--light-font-weight);
+}
+#sec03-amenities .accordion .accordion-body {
+  gap: 0 15rem;
+  align-items: center;
+}
+#sec03-amenities .accordion .accordion-body p {
+  font-size: 1rem;
+  font-family: var(--body-font-family);
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  font-weight: var(--light-font-weight);
+}
+
+#sec04-info {
+  width: 100%;
+  height: 60vh;
+}
+#sec04-info .box {
+  border: 1px solid #e5e7eb;
+  padding: 3rem 3rem;
+}
+#sec04-info .box h2 {
+  font-size: 1.5rem;
+  font-family: var(--title-font-family);
+  letter-spacing: 0.03em;
+  font-weight: var(--bold-font-weight);
+  color: var(--black-color);
+}
+#sec04-info .box li {
+  font-size: 1rem;
+  font-family: var(--body-font-family);
+  letter-spacing: 0.03em;
+  font-weight: var(--lightest-font-weight);
+  color: var(--black-color);
+}
+#sec04-info .box .notificaiton {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+}
+#sec04-info .box .cancellation {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+#sec04-info .box .contact {
+  padding-top: 1.5rem;
+}
+#sec04-info .box .contact p {
+  font-size: 1rem;
+  font-family: var(--body-font-family);
+  letter-spacing: 0.03em;
+  font-weight: var(--lightest-font-weight);
+  color: var(--black-color);
+  margin-bottom: 0.1rem;
+}
+#sec04-info .box .contact p span {
+  font-weight: var(--bold-font-weight);
+}/*# sourceMappingURL=accomandations.css.map */

@@ -16,11 +16,12 @@
   --subtitle-font-size: 1.75rem;
   --sec-title-font-size: 2.25rem;
   --sec-body-font-size: 1.125rem;
-  --lightest-font-weight: 300;
+  --lightest-font-weight: 200;
   --light-font-weight: 300;
   --regular-font-weight: 400;
   --semibold-font-weight: 500;
   --bold-font-weight: 600;
+  --extra-bold-font-weight: 700;
   --sec05-font-size: 1rem;
 }
 
