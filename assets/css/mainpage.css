@@ -1006,10 +1006,376 @@ header .navbar .navbar-nav .p-l-nav {
   margin-bottom: 1.25rem;
 }
 
+@media only screen and (max-width: 1640px) {
+  header {
+    left: 15%;
+  }
+  header .navbar {
+    width: 100%;
+  }
+  header .navbar a {
+    font-size: 0.9rem;
+  }
+  header .navbar .navbar-nav .p-l-nav {
+    padding-left: 4rem;
+  }
+  #sec00-banner-page {
+    width: 100%;
+  }
+  #sec00-banner-page .slide-text span {
+    font-size: 3.5rem;
+  }
+  #sec00-banner-page .reservationForm {
+    position: absolute;
+    bottom: 0;
+    left: 11%;
+    height: 15%;
+    z-index: 9999;
+    background: #F2ECE6;
+    opacity: 85%;
+    width: 88%;
+  }
+  #sec00-banner-page .reservationForm input {
+    font-size: 1rem;
+  }
+  #sec00-banner-page .reservationForm h4 {
+    font-size: 0.925rem;
+  }
+  #sec00-banner-page .reservationForm .minus, #sec00-banner-page .reservationForm .plus {
+    font-size: 1.8rem;
+  }
+  #sec00-banner-page .reservationForm .minus {
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #sec00-banner-page .reservationForm .plus {
+    padding-left: 1.5rem;
+    padding-bottom: 0.42rem;
+  }
+  #sec00-banner-page .reservationForm .row {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #sec00-banner-page .reservationForm p {
+    font-size: 1.05rem;
+  }
+  #sec00-banner-page .reservationForm .text-center {
+    border-right: 1px solid #C5C2C2;
+  }
+  #sec00-banner-page .reservationForm .userIncrease {
+    justify-content: center;
+    align-items: center;
+  }
+  #sec00-banner-page .reservationForm .search {
+    padding-left: 5rem;
+  }
+  #sec00-banner-page .reservationForm .search button {
+    font-size: 0.85rem;
+  }
+  #sec01-about-us .slide-text {
+    padding-top: 5rem;
+  }
+  #sec01-about-us .swiper-horizontal > .swiper-pagination-bullets,
+  #sec01-about-us .swiper-pagination-bullets.swiper-pagination-horizontal,
+  #sec01-about-us .swiper-pagination-custom,
+  #sec01-about-us .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: 77%;
+    left: 26.7%;
+    width: 60%;
+  }
+  #sec01-about-us h2 {
+    font-size: 2rem;
+  }
+  #sec01-about-us a {
+    font-size: 1rem;
+  }
+  #sec01-about-us .view-all img {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  #sec01-about-us h4 {
+    font-size: 1.5rem;
+  }
+  #sec01-about-us p {
+    font-size: 1rem;
+  }
+  #sec01-about-us button {
+    font-size: 0.8rem;
+  }
+  #sec02-accomandations button {
+    font-size: 1.2rem;
+  }
+  #sec02-accomandations .tab-content h2 {
+    font-size: 1.175rem;
+    padding-bottom: 0.675rem;
+  }
+  #sec02-accomandations .tab-content h3 {
+    font-size: 2.6rem;
+  }
+  #sec02-accomandations .tab-content p {
+    font-size: 1.2rem;
+  }
+  #sec02-accomandations .tab-content li {
+    font-size: 0.95rem;
+  }
+  #sec02-accomandations .tab-content .button-view-more {
+    padding-top: 2rem;
+  }
+  #sec02-accomandations .tab-content button {
+    font-size: 1rem;
+    padding: 0.55rem 1.2rem;
+  }
+  #sec03-dining-cafe h2 {
+    font-size: 2rem;
+  }
+  #sec03-dining-cafe a {
+    font-size: 1rem;
+  }
+  #sec03-dining-cafe .view-all img {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  #sec03-dining-cafe h4 {
+    font-size: 1.5rem;
+  }
+  #sec03-dining-cafe p {
+    font-size: 1rem;
+  }
+  #sec03-dining-cafe .content-wrapper .d-flex {
+    padding-left: 0.8rem;
+  }
+  #sec04-events h2 {
+    font-size: 2rem;
+  }
+  #sec04-events a {
+    font-size: 1rem;
+  }
+  #sec04-events .view-all img {
+    padding-top: 0.6rem;
+    margin-right: 0.5rem;
+    padding-left: 0;
+  }
+  #sec04-events .row {
+    --bs-gutter-x: -23.5rem;
+  }
+  #sec04-events .swiper-slide {
+    margin-right: 0;
+  }
+  #sec04-events .swiper-slide h2 {
+    font-size: 1.1rem;
+  }
+  #sec04-events .swiper-slide p {
+    font-size: 0.9rem;
+  }
+  #sec05-special-offers h2 {
+    font-size: 2rem;
+  }
+  #sec05-special-offers a {
+    font-size: 1rem;
+  }
+  #sec05-special-offers .view-all img {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  #sec05-special-offers h4 {
+    font-size: 1.1rem;
+  }
+  #sec05-special-offers p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  header {
+    left: 5%;
+  }
+  header .navbar {
+    width: 100%;
+  }
+  header .navbar a {
+    font-size: 0.9rem;
+  }
+  header .navbar .navbar-nav .p-l-nav {
+    padding-left: 4rem;
+  }
+  #sec00-banner-page {
+    width: 100%;
+  }
+  #sec00-banner-page .slide-text span {
+    font-size: 3.5rem;
+  }
+  #sec00-banner-page .reservationForm {
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    height: 15%;
+    z-index: 9999;
+    background: #F2ECE6;
+    opacity: 85%;
+    width: 88%;
+  }
+  #sec00-banner-page .reservationForm input {
+    font-size: 1rem;
+  }
+  #sec00-banner-page .reservationForm h4 {
+    font-size: 0.925rem;
+  }
+  #sec00-banner-page .reservationForm .minus, #sec00-banner-page .reservationForm .plus {
+    font-size: 1.8rem;
+  }
+  #sec00-banner-page .reservationForm .minus {
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #sec00-banner-page .reservationForm .plus {
+    padding-left: 1.5rem;
+    padding-bottom: 0.42rem;
+  }
+  #sec00-banner-page .reservationForm .row {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  #sec00-banner-page .reservationForm p {
+    font-size: 1.05rem;
+  }
+  #sec00-banner-page .reservationForm .text-center {
+    border-right: 1px solid #C5C2C2;
+  }
+  #sec00-banner-page .reservationForm .userIncrease {
+    justify-content: center;
+    align-items: center;
+  }
+  #sec00-banner-page .reservationForm .search {
+    padding-left: 5rem;
+  }
+  #sec00-banner-page .reservationForm .search button {
+    font-size: 0.85rem;
+  }
+  #sec01-about-us .slide-text {
+    padding-top: 5rem;
+  }
+  #sec01-about-us .swiper-horizontal > .swiper-pagination-bullets,
+  #sec01-about-us .swiper-pagination-bullets.swiper-pagination-horizontal,
+  #sec01-about-us .swiper-pagination-custom,
+  #sec01-about-us .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: 77%;
+    left: 26.7%;
+    width: 60%;
+  }
+  #sec01-about-us h2 {
+    font-size: 2rem;
+  }
+  #sec01-about-us a {
+    font-size: 1rem;
+  }
+  #sec01-about-us .view-all img {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  #sec01-about-us h4 {
+    font-size: 1.5rem;
+  }
+  #sec01-about-us p {
+    font-size: 1rem;
+  }
+  #sec01-about-us button {
+    font-size: 0.8rem;
+  }
+  #sec02-accomandations button {
+    font-size: 1.2rem;
+  }
+  #sec02-accomandations .tab-content h2 {
+    font-size: 1.175rem;
+    padding-bottom: 0.675rem;
+  }
+  #sec02-accomandations .tab-content h3 {
+    font-size: 2.6rem;
+  }
+  #sec02-accomandations .tab-content p {
+    font-size: 1.2rem;
+  }
+  #sec02-accomandations .tab-content li {
+    font-size: 0.95rem;
+  }
+  #sec02-accomandations .tab-content .button-view-more {
+    padding-top: 2rem;
+  }
+  #sec02-accomandations .tab-content button {
+    font-size: 1rem;
+    padding: 0.55rem 1.2rem;
+  }
+  #sec03-dining-cafe h2 {
+    font-size: 2rem;
+  }
+  #sec03-dining-cafe a {
+    font-size: 1rem;
+  }
+  #sec03-dining-cafe .view-all img {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  #sec03-dining-cafe h4 {
+    font-size: 1.5rem;
+  }
+  #sec03-dining-cafe p {
+    font-size: 1rem;
+  }
+  #sec03-dining-cafe .content-wrapper .d-flex {
+    padding-left: 0.8rem;
+  }
+  #sec04-events h2 {
+    font-size: 2rem;
+  }
+  #sec04-events a {
+    font-size: 1rem;
+  }
+  #sec04-events .view-all img {
+    padding-top: 0.6rem;
+    margin-right: 0.5rem;
+    padding-left: 0;
+  }
+  #sec04-events .row {
+    --bs-gutter-x: -23.5rem;
+  }
+  #sec04-events .swiper-slide {
+    margin-right: 0;
+  }
+  #sec04-events .swiper-slide h2 {
+    font-size: 1.1rem;
+  }
+  #sec04-events .swiper-slide p {
+    font-size: 0.9rem;
+  }
+  #sec05-special-offers h2 {
+    font-size: 2rem;
+  }
+  #sec05-special-offers a {
+    font-size: 1rem;
+  }
+  #sec05-special-offers .view-all img {
+    padding-top: 0.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  #sec05-special-offers h4 {
+    font-size: 1.1rem;
+  }
+  #sec05-special-offers p {
+    font-size: 0.9rem;
+  }
+}
 @media only screen and (max-width: 1280px) {
   header {
-    width: 10%;
     left: 5%;
+  }
+  header .navbar {
+    width: 100%;
   }
   header .navbar a {
     font-size: 0.9rem;
@@ -1188,17 +1554,13 @@ header .navbar .navbar-nav .p-l-nav {
 }
 @media only screen and (max-width: 1024px) {
   header {
+    left: 0;
+  }
+  header .navbar {
     width: 100%;
-    left: 0%;
   }
   header .navbar a {
     font-size: 0.7rem;
-  }
-  header .navbar .navbar-nav .p-l-nav {
-    padding-left: 4rem;
-  }
-  header .navbar .container-fluid {
-    gap: 0 15rem;
   }
   #sec00-banner-page {
     width: 100%;

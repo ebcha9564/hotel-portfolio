@@ -9,4 +9,17 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      breakpoints:{
+        1201:{
+          slidesPerView: 3,
+        },
+
+        768:{
+          slidesPerView: 2,
+        },
+
+        347:{
+          slidesPerView: 1,
+        }
+      }
     });

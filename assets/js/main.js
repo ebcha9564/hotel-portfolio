@@ -146,7 +146,7 @@ var swiper = new Swiper(".mySwiper-2", {
     breakpoints: {
 
         1920: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 30,
         },
 

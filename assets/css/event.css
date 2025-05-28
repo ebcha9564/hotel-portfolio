@@ -338,6 +338,112 @@
   font-weight: var(--regular-font-weight);
   letter-spacing: 0.03em;
 }
+#sec03-event-contents .modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+}
+#sec03-event-contents .modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+#sec03-event-contents .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#sec03-event-contents .modal-body img {
+  width: 95%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+#sec03-event-contents .modal-text {
+  padding: 0 10px;
+}
+#sec03-event-contents .modal-text h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+#sec03-event-contents .modal-details {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+}
+#sec03-event-contents .modal-description {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+#sec03-event-contents .close-modal {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+#sec03-event-contents .close-modal:hover {
+  color: #333;
+}
+#sec03-event-contents .tags {
+  margin-bottom: 15px;
+}
+#sec03-event-contents .tags span {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #555;
+}
+#sec03-event-contents .detail-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#sec03-event-contents .detail-item img {
+  width: 16px;
+  height: 16px;
+}
+#sec03-event-contents .book-now {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#sec03-event-contents .book-now:hover {
+  background-color: #449d48;
+}
+#sec03-event-contents .clickable-modal {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  #sec03-event-contents .modal-content {
+    width: 95%;
+    margin: 10% auto;
+  }
+  #sec03-event-contents .modal-body {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 1400px) {
   #sec03-event-contents .row {

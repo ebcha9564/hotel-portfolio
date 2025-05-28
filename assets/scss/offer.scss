@@ -2,7 +2,6 @@
 
 #sec01-title {
     width: 100%;
-    height: 45vh;
     background: url("../images/special-offer-bg1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,23 +28,23 @@
         font-weight: var(--lightest-font-weight);
         padding-top: 2rem;
     }
+    padding-bottom: 9rem;
 }
 
 #sec02-slider {
     width: 100%;
-    height: 100vh;
     position: relative;
 
-    .swiper-button-next{
-        top: 50%;
+    .swiper-button-next {
+        top: 65%;
         right: 10%;
-        color: #824D1E;
+        color: #824d1e;
     }
 
-    .swiper-button-prev{
-        top: 50%;
+    .swiper-button-prev {
+        top: 65%;
         left: 10%;
-        color: #824D1E;
+        color: #824d1e;
     }
 
     .title-content-header {
@@ -69,8 +68,8 @@
         }
     }
 
-    .swiper-slide{
-        h2{
+    .swiper-slide {
+        h2 {
             font-family: var(--title-font-family);
             font-size: 1.5rem;
             color: var(--black-color);
@@ -79,7 +78,7 @@
             padding-top: 1rem;
         }
 
-        p{
+        p {
             font-family: var(--body-font-family);
             font-size: 1.125rem;
             color: var(--black-color);
@@ -87,54 +86,54 @@
             letter-spacing: 0.03em;
         }
 
-        .calendar-table{
+        .calendar-table {
             gap: 0 0.5rem;
         }
 
-        .date{
+        .date {
             color: #444;
         }
     }
-    
-    .swiper-pagination-fraction{
-        top: 83%;
-        color: #824D1E;
+
+    .swiper-pagination-fraction {
+        top: 100%;
+        color: #824d1e;
         font-size: 1.125rem;
         font-family: var(--body-font-family);
         font-weight: var(--regular-font-weight);
         letter-spacing: 0.03em;
     }
+    padding-bottom: 3rem;
 }
 
-#sec03-offer-content{
+#sec03-offer-content {
     width: 100%;
-    height: 250vh;
 
-    .sec03-title{
-        h2{
+    .sec03-title {
+        h2 {
             font-family: var(--title-font-family);
             font-size: 2.2rem;
             color: var(--navy-color);
             font-weight: var(--bold-font-weight);
             letter-spacing: 0.03em;
-            padding-bottom: 0.05rem;            
+            padding-bottom: 0.05rem;
         }
-        p{
+        p {
             font-family: var(--body-font-family);
             font-size: 1.125rem;
             color: var(--black-color);
             font-weight: var(--lightest-font-weight);
             letter-spacing: 0.03em;
-            padding-bottom: 2rem;            
+            padding-bottom: 2rem;
         }
     }
 
-    .tab-bar{
-        ul{
+    .tab-bar {
+        ul {
             list-style: none;
             justify-content: right;
 
-            li{
+            li {
                 font-size: 1rem;
                 font-family: var(--body-font-family);
                 font-weight: var(--regular-font-weight);
@@ -142,32 +141,37 @@
                 cursor: pointer;
             }
 
-            .border-right{
+            .border-right {
                 padding-right: 1rem;
                 padding-left: 1rem;
                 border-right: 1px solid #444;
             }
 
-            .padding-left-element{
+            .padding-left-element {
                 padding-left: 1rem;
             }
         }
     }
 
-    .img-content{
+    .img-content {
         position: relative;
 
-        .category{
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .category {
             position: absolute;
             width: 8rem;
             left: 0;
             top: 0;
-            background: #F2ECE6;
+            background: #f2ece6;
             display: flex;
             justify-content: center;
             align-items: center;
 
-            p{
+            p {
                 font-family: var(--body-font-family);
                 font-size: 1rem;
                 font-weight: var(--regular-font-weight);
@@ -178,17 +182,17 @@
         }
     }
 
-    .text-content-offer{
-        h3{
+    .text-content-offer {
+        h3 {
             font-size: 1.8rem;
             font-family: var(--title-font-family);
-            color: #5E3C21;
+            color: #5e3c21;
             font-weight: var(--extra-bold-font-weight);
             letter-spacing: 0.03em;
             padding-top: 1.5rem;
         }
 
-        p{
+        p {
             font-size: 1.125rem;
             font-family: var(--body-font-family);
             color: #444;
@@ -198,27 +202,27 @@
         }
     }
 
-    .period{
+    .period {
         gap: 0 2rem;
         padding-top: 2rem;
-        p{
+        p {
             font-size: 1rem;
             font-family: var(--body-font-family);
             color: var(--black-color);
             font-weight: var(--regular-font-weight);
             letter-spacing: 0.03em;
 
-            span{
-                font-weight:var(--bold-font-weight);
+            span {
+                font-weight: var(--bold-font-weight);
                 padding-right: 1rem;
-                color:#824D1E;
+                color: #824d1e;
             }
         }
 
-        .button-section{
-            button{
+        .button-section {
+            button {
                 background: none;
-                border: 2px solid #824D1E;
+                border: 2px solid #824d1e;
                 padding: 0.8rem 1.7rem;
                 font-family: var(--body-font-family);
                 font-size: 1.125rem;
@@ -228,3 +232,719 @@
         }
     }
 }
+
+/*Responsive Design for 1500px, 1200px, 992px, 768px, 576px, 348px*/
+@media only screen and (max-width: 1500px) {
+    #sec01-title {
+        h2 {
+            font-size: 3rem;
+            padding-top: 8rem;
+        }
+
+        p {
+            font-size: 1.15rem;
+            padding-top: 1.8rem;
+        }
+        padding-bottom: 8rem;
+    }
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right: 2%;
+            color: #824d1e;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 2%;
+            color: #824d1e;
+        }
+
+        .title-content-header {
+            padding-top: 2.8rem;
+            h2 {
+                font-size: 2.1rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.4rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.085rem;
+            }
+
+            .calendar-table {
+                gap: 0 0.5rem;
+            }
+
+            .date {
+                color: #444;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.085rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+    #sec03-offer-content {
+
+        .sec03-title {
+            h2 {
+                font-size: 2.1rem;
+                padding-bottom: 0.15rem;
+            }
+            p {
+                font-size: 1.1rem;
+                padding-bottom: 1.8rem;
+            }
+        }
+
+        .img-content {
+            position: relative;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .category {
+                width: 18%;
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .text-content-offer {
+            h3 {
+                font-size: 1.6rem;
+                padding-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .period {
+            gap: 0 2rem;
+            padding-top: 2rem;
+            p {
+                font-size: 1rem;
+            }
+
+            .button-section {
+                button {
+                    padding: 0.7rem 1.5rem;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right: 1%;
+            color: #824d1e;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 1%;
+            color: #824d1e;
+        }
+
+        .title-content-header {
+            padding-top: 2.8rem;
+            h2 {
+                font-size: 2.1rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.4rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.085rem;
+            }
+
+            .calendar-table {
+                gap: 0 0.5rem;
+            }
+
+            .date {
+                color: #444;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.085rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right: 5%;
+            color: #824d1e;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 5%;
+            color: #824d1e;
+        }
+
+        .title-content-header {
+            padding-top: 2.8rem;
+            h2 {
+                font-size: 2.1rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.4rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.085rem;
+            }
+            img{
+                width: 99%;
+            }
+
+            .calendar-table {
+                gap: 0 0.5rem;
+            }
+
+            .date {
+                color: #444;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.085rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+    #sec03-offer-content {
+
+        .period {
+
+            .button-section {
+                button {
+                    padding: 0.7rem 1.1rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #sec01-title {
+        h2 {
+            font-size: 2.8rem;
+            padding-top: 7.5rem;
+        }
+
+        p {
+            font-size: 1.10rem;
+            padding-top: 1.7rem;
+        }
+        padding-bottom: 7.5rem;
+    }
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right:5%;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 5%;
+        }
+
+        .title-content-header {
+            padding-top: 2.5rem;
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.3rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.075rem;
+            }
+
+            .calendar-table {
+                gap: 0rem 1rem;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.075rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+    #sec03-offer-content {
+
+        .remove-padding-top{
+            padding-top: 5rem;
+        }
+
+        .sec03-title {
+            h2 {
+                font-size: 2rem;
+                padding-bottom: 0.15rem;
+            }
+            p {
+                font-size: 1.05rem;
+                padding-bottom: 1.8rem;
+            }
+        }
+
+        .img-content {
+
+            .category {
+                width: 25%;
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .text-content-offer {
+            h3 {
+                font-size: 1.5rem;
+                padding-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .period {
+            gap: 0 2rem;
+            padding-top: 2rem;
+            p {
+                font-size: 1rem;
+                line-height: 170%;
+            }
+
+            .button-section {
+                button {
+                    padding: 0.5rem 0.5rem;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #sec01-title {
+        h2 {
+            font-size: 2.8rem;
+            padding-top: 7.5rem;
+        }
+
+        p {
+            font-size: 1.10rem;
+            padding-top: 1.7rem;
+        }
+        padding-bottom: 7.5rem;
+    }
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right:2%;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 2%;
+        }
+
+        .title-content-header {
+            padding-top: 2.5rem;
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.3rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.075rem;
+            }
+
+            .calendar-table {
+                gap: 0rem 1rem;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.075rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+    #sec03-offer-content {
+
+        .remove-padding-top{
+            padding-top: 5rem;
+        }
+
+        .sec03-title {
+            h2 {
+                font-size: 2rem;
+                padding-bottom: 0.15rem;
+            }
+            p {
+                font-size: 1.05rem;
+                padding-bottom: 1.8rem;
+            }
+        }
+
+        .img-content {
+
+            .category {
+                width: 25%;
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .text-content-offer {
+            h3 {
+                font-size: 1.5rem;
+                padding-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .period {
+            gap: 0 2rem;
+            padding-top: 2rem;
+            p {
+                font-size: 1rem;
+                line-height: 170%;
+            }
+
+            .button-section {
+                button {
+                    padding: 0.5rem 0.5rem;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #sec01-title {
+        h2 {
+            font-size: 2.8rem;
+            padding-top: 7.5rem;
+        }
+
+        p {
+            font-size: 1.10rem;
+            padding-top: 1.7rem;
+        }
+        padding-bottom: 7.5rem;
+    }
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right:7%;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 7%;
+        }
+
+        .title-content-header {
+            padding-top: 2.5rem;
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.3rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.075rem;
+            }
+
+            .calendar-table {
+                gap: 0rem 1rem;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.075rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+    #sec03-offer-content {
+
+        .remove-padding-top{
+            padding-top: 5rem;
+        }
+
+        .sec03-title {
+            h2 {
+                font-size: 2rem;
+                padding-bottom: 0.15rem;
+            }
+            p {
+                font-size: 1.05rem;
+                padding-bottom: 1.8rem;
+            }
+        }
+
+        .img-content {
+
+            .category {
+                width: 25%;
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .text-content-offer {
+            h3 {
+                font-size: 1.5rem;
+                padding-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .period {
+            gap: 0 1rem;
+            padding-top: 2rem;
+            p {
+                font-size: 1rem;
+                line-height: 170%;
+                letter-spacing: 0;
+            }
+
+            .button-section {
+                button {
+                    padding: 0.5rem 0.5rem;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #sec01-title {
+        h2 {
+            font-size: 2.8rem;
+            padding-top: 7.5rem;
+        }
+
+        p {
+            font-size: 1.10rem;
+            padding-top: 1.7rem;
+        }
+        padding-bottom: 7.5rem;
+    }
+
+    #sec02-slider {
+        .swiper-button-next {
+            top: 57%;
+            right:7%;
+        }
+
+        .swiper-button-prev {
+            top: 57%;
+            left: 7%;
+        }
+
+        .title-content-header {
+            padding-top: 2.5rem;
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+        }
+
+        .swiper-slide {
+            h2 {
+                font-size: 1.3rem;
+                padding-top: 1rem;
+            }
+
+            p {
+                font-size: 1.075rem;
+            }
+
+            .calendar-table {
+                gap: 0rem 1rem;
+            }
+        }
+
+        .swiper-pagination-fraction {
+            top: 96%;
+            color: #824d1e;
+            font-size: 1.075rem;
+        }
+        padding-bottom: 3rem;
+    }
+
+    #sec03-offer-content {
+
+        .remove-padding-top{
+            padding-top: 5rem;
+        }
+
+        .sec03-title {
+            h2 {
+                font-size: 2rem;
+                padding-bottom: 0.15rem;
+            }
+            p {
+                font-size: 1.05rem;
+                padding-bottom: 1.8rem;
+            }
+        }
+
+        .img-content {
+
+            .category {
+                width: 25%;
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .text-content-offer {
+            h3 {
+                font-size: 1.5rem;
+                padding-top: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .period {
+            gap: 0 1rem;
+            padding-top: 2rem;
+            p {
+                font-size: 1rem;
+                line-height: 170%;
+                letter-spacing: 0;
+            }
+
+            .button-section {
+                button {
+                    padding: 0.5rem 0.5rem;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
+

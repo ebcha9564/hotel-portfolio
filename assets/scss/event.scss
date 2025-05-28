@@ -1,9 +1,9 @@
-@import 'common.scss';
+@import "common.scss";
 
 #sec01-title {
     width: 100%;
     height: 45vh;
-    background: url('../images/event-page-bg2.png');
+    background: url("../images/event-page-bg2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,7 +117,6 @@
                     padding-top: 0.1rem;
                 }
             }
-
         }
     }
 
@@ -242,6 +241,140 @@
             }
         }
     }
+
+    // Modal Styles
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow: auto;
+
+        &-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        &-body {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            img {
+                width: 95%;
+                max-height: 400px;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+        }
+
+        &-text {
+            padding: 0 10px;
+
+            h2 {
+                margin-bottom: 10px;
+                color: #333;
+            }
+        }
+
+        &-details {
+            display: flex;
+            gap: 20px;
+            margin: 15px 0;
+        }
+
+        &-description {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+    }
+
+    // Close button
+    .close-modal {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #aaa;
+        cursor: pointer;
+
+        &:hover {
+            color: #333;
+        }
+    }
+
+    // Tags
+    .tags {
+        margin-bottom: 15px;
+
+        span {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 4px 8px;
+            margin-right: 5px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #555;
+        }
+    }
+
+    // Detail items
+    .detail-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    // Book Now button
+    .book-now {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: darken(#4caf50, 5%);
+        }
+    }
+
+    // Make images clickable
+    .clickable-modal {
+        cursor: pointer;
+    }
+
+    // Responsive adjustments
+    @media (max-width: 768px) {
+        .modal {
+            &-content {
+                width: 95%;
+                margin: 10% auto;
+            }
+
+            &-body {
+                flex-direction: column;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -253,7 +386,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-
     #sec03-event-contents {
         .row {
             flex-direction: column;

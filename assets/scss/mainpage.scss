@@ -1025,13 +1025,500 @@ header {
 
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1640px) {
 
     header{
-        width: 10%;
+        left: 15%;
+
+        .navbar{
+            width: 100%;
+            a{
+                font-size: 0.9rem;
+            }
+            .navbar-nav{
+                .p-l-nav{
+                    padding-left: 4rem;
+                }
+            }
+        }
+
+    }
+
+
+    #sec00-banner-page{
+        width: 100%;
+        .slide-text{
+            span{
+                font-size: 3.5rem;
+            }
+        }
+        .reservationForm{
+        position: absolute;
+        bottom: 0;
+        left: 11%;
+        height: 15%;
+        z-index: 9999;
+        background: #F2ECE6;
+        opacity: 85%;
+        width: 88%;
+
+        input{
+            font-size: 1rem;
+        }
+
+        h4{
+            font-size: 0.925rem;
+        }
+
+        .minus, .plus{
+            font-size: 1.8rem;
+        }
+
+        .minus{
+            padding-right: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .plus{
+            padding-left: 1.5rem;
+            padding-bottom: 0.42rem;
+        }
+
+        .row{
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        p{
+            font-size: 1.05rem;
+        }
+
+        .text-center{
+            border-right: 1px solid #C5C2C2;
+        }
+
+        .userIncrease{
+            justify-content: center;
+            align-items: center;
+        }
+        .search{
+            padding-left: 5rem;
+            button{
+                font-size: 0.85rem;
+            }
+        }
+
+        
+        }
+
+    }
+
+    #sec01-about-us {
+        .slide-text {
+            padding-top: 5rem;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: var(--swiper-pagination-bottom, 8px);
+            top: 77%;
+            left: 26.7%;
+            width: 60%;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+
+        .view-all img {
+            padding-top: 0.6rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        button {
+            font-size: 0.8rem;
+        }
+
+    }
+
+    #sec02-accomandations{
+        button{
+            font-size: 1.2rem;
+        }
+        .tab-content{
+            h2{
+                font-size: 1.175rem;
+                padding-bottom: 0.675rem;
+            }
+            h3{
+                font-size: 2.6rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            li{
+                font-size: 0.95rem;
+            }
+            .button-view-more{
+                padding-top: 2rem;
+            }
+            button{
+                font-size: 1rem;
+                padding: 0.55rem 1.2rem;
+            }
+        }
+    }
+
+    #sec03-dining-cafe {
+
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+
+        .view-all img {
+            padding-top: 0.6rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .content-wrapper .d-flex {
+            padding-left: 0.8rem;
+        }
+    }
+
+    #sec04-events{
+        h2{
+            font-size: 2rem;
+        }
+        
+        a{
+            font-size: 1rem;
+        }
+
+        .view-all img{
+            padding-top: 0.6rem;
+            margin-right: 0.5rem;
+            padding-left: 0;
+        }
+        .row{
+            --bs-gutter-x: -23.5rem;
+        }
+        .swiper-slide{
+            margin-right: 0;
+            h2{
+                font-size: 1.1rem;
+            }
+
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    #sec05-special-offers {
+        h2 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+
+        .view-all img {
+            padding-top: 0.6rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    header{
         left: 5%;
 
         .navbar{
+            width: 100%;
+            a{
+                font-size: 0.9rem;
+            }
+            .navbar-nav{
+                .p-l-nav{
+                    padding-left: 4rem;
+                }
+            }
+        }
+
+    }
+
+
+    #sec00-banner-page{
+        width: 100%;
+        .slide-text{
+            span{
+                font-size: 3.5rem;
+            }
+        }
+        .reservationForm{
+        position: absolute;
+        bottom: 0;
+        left: 6%;
+        height: 15%;
+        z-index: 9999;
+        background: #F2ECE6;
+        opacity: 85%;
+        width: 88%;
+
+        input{
+            font-size: 1rem;
+        }
+
+        h4{
+            font-size: 0.925rem;
+        }
+
+        .minus, .plus{
+            font-size: 1.8rem;
+        }
+
+        .minus{
+            padding-right: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .plus{
+            padding-left: 1.5rem;
+            padding-bottom: 0.42rem;
+        }
+
+        .row{
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        p{
+            font-size: 1.05rem;
+        }
+
+        .text-center{
+            border-right: 1px solid #C5C2C2;
+        }
+
+        .userIncrease{
+            justify-content: center;
+            align-items: center;
+        }
+        .search{
+            padding-left: 5rem;
+            button{
+                font-size: 0.85rem;
+            }
+        }
+
+        
+        }
+
+    }
+
+    #sec01-about-us {
+        .slide-text {
+            padding-top: 5rem;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: var(--swiper-pagination-bottom, 8px);
+            top: 77%;
+            left: 26.7%;
+            width: 60%;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+
+        .view-all img {
+            padding-top: 0.6rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        button {
+            font-size: 0.8rem;
+        }
+
+    }
+
+    #sec02-accomandations{
+        button{
+            font-size: 1.2rem;
+        }
+        .tab-content{
+            h2{
+                font-size: 1.175rem;
+                padding-bottom: 0.675rem;
+            }
+            h3{
+                font-size: 2.6rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            li{
+                font-size: 0.95rem;
+            }
+            .button-view-more{
+                padding-top: 2rem;
+            }
+            button{
+                font-size: 1rem;
+                padding: 0.55rem 1.2rem;
+            }
+        }
+    }
+
+    #sec03-dining-cafe {
+
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+
+        .view-all img {
+            padding-top: 0.6rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .content-wrapper .d-flex {
+            padding-left: 0.8rem;
+        }
+    }
+
+    #sec04-events{
+        h2{
+            font-size: 2rem;
+        }
+        
+        a{
+            font-size: 1rem;
+        }
+
+        .view-all img{
+            padding-top: 0.6rem;
+            margin-right: 0.5rem;
+            padding-left: 0;
+        }
+        .row{
+            --bs-gutter-x: -23.5rem;
+        }
+        .swiper-slide{
+            margin-right: 0;
+            h2{
+                font-size: 1.1rem;
+            }
+
+            p{
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    #sec05-special-offers {
+        h2 {
+            font-size: 2rem;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+
+        .view-all img {
+            padding-top: 0.6rem;
+            margin-bottom: 1.2rem;
+            padding-left: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+    header{
+        left: 5%;
+        .navbar{
+            width: 100%;
             a{
                 font-size: 0.9rem;
             }
@@ -1272,23 +1759,19 @@ header {
 @media only screen and (max-width: 1024px) {
 
     header{
-        width: 100%;
-        left: 0%;
+        left: 0;
 
         .navbar{
+            width: 100%;
             a{
                 font-size: 0.7rem;
             }
 
             .navbar-nav{
                 .p-l-nav{
-                    padding-left: 4rem;
                 }
             }
             
-            .container-fluid{
-                gap: 0 15rem;
-            }
         }
 
     }
