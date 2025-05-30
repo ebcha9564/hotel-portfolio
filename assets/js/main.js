@@ -1,12 +1,13 @@
 
 
-$(function() {
-  $('input[name="daterange"]').daterangepicker({
-    opens: 'right',
-    drops: 'up'
-  }, function(start, end, label) {
-    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
-  });
+
+$(function () {
+    $('input[name="daterange"]').daterangepicker({
+        opens: 'right',
+        drops: 'up'
+    }, function (start, end, label) {
+        console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+    });
 });
 
 
@@ -135,38 +136,14 @@ var swiper = new Swiper(".mySwiper-1", {
 
 
 var swiper = new Swiper(".mySwiper-2", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      loop: true,
-      pagination : {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
         el: ".swiper-pagination-2",
         dynamicBullets: true,
-      },
+    },
 
-    breakpoints: {
-
-        1920: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-        },
-
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 20
-        },
-
-        540: {
-            slidesPerView: 1,
-            spaceBetween: 10
-        },
-
-        348: {
-            slidesPerView: 1,
-            spaceBetween: 5,
-        }
-
-
-    }
 });
 
 document.addEventListener('DOMContentLoaded', function () {

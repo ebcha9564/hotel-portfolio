@@ -300,7 +300,6 @@
     }
 
     #sec03-offer-content {
-
         .sec03-title {
             h2 {
                 font-size: 2.1rem;
@@ -358,7 +357,6 @@
 }
 
 @media only screen and (max-width: 1440px) {
-
     #sec02-slider {
         .swiper-button-next {
             top: 57%;
@@ -409,11 +407,9 @@
         }
         padding-bottom: 3rem;
     }
-
 }
 
 @media only screen and (max-width: 1400px) {
-
     #sec02-slider {
         .swiper-button-next {
             top: 57%;
@@ -447,7 +443,7 @@
             p {
                 font-size: 1.085rem;
             }
-            img{
+            img {
                 width: 99%;
             }
 
@@ -469,9 +465,7 @@
     }
 
     #sec03-offer-content {
-
         .period {
-
             .button-section {
                 button {
                     padding: 0.7rem 1.1rem;
@@ -490,7 +484,7 @@
         }
 
         p {
-            font-size: 1.10rem;
+            font-size: 1.1rem;
             padding-top: 1.7rem;
         }
         padding-bottom: 7.5rem;
@@ -499,7 +493,7 @@
     #sec02-slider {
         .swiper-button-next {
             top: 57%;
-            right:5%;
+            right: 5%;
         }
 
         .swiper-button-prev {
@@ -542,8 +536,7 @@
     }
 
     #sec03-offer-content {
-
-        .remove-padding-top{
+        .remove-padding-top {
             padding-top: 5rem;
         }
 
@@ -559,7 +552,6 @@
         }
 
         .img-content {
-
             .category {
                 width: 25%;
                 p {
@@ -606,7 +598,7 @@
         }
 
         p {
-            font-size: 1.10rem;
+            font-size: 1.1rem;
             padding-top: 1.7rem;
         }
         padding-bottom: 7.5rem;
@@ -615,7 +607,7 @@
     #sec02-slider {
         .swiper-button-next {
             top: 57%;
-            right:2%;
+            right: 2%;
         }
 
         .swiper-button-prev {
@@ -658,8 +650,7 @@
     }
 
     #sec03-offer-content {
-
-        .remove-padding-top{
+        .remove-padding-top {
             padding-top: 5rem;
         }
 
@@ -675,7 +666,6 @@
         }
 
         .img-content {
-
             .category {
                 width: 25%;
                 p {
@@ -722,7 +712,7 @@
         }
 
         p {
-            font-size: 1.10rem;
+            font-size: 1.1rem;
             padding-top: 1.7rem;
         }
         padding-bottom: 7.5rem;
@@ -731,7 +721,7 @@
     #sec02-slider {
         .swiper-button-next {
             top: 57%;
-            right:7%;
+            right: 7%;
         }
 
         .swiper-button-prev {
@@ -774,8 +764,7 @@
     }
 
     #sec03-offer-content {
-
-        .remove-padding-top{
+        .remove-padding-top {
             padding-top: 5rem;
         }
 
@@ -791,7 +780,6 @@
         }
 
         .img-content {
-
             .category {
                 width: 25%;
                 p {
@@ -839,7 +827,7 @@
         }
 
         p {
-            font-size: 1.10rem;
+            font-size: 1.1rem;
             padding-top: 1.7rem;
         }
         padding-bottom: 7.5rem;
@@ -848,7 +836,7 @@
     #sec02-slider {
         .swiper-button-next {
             top: 57%;
-            right:7%;
+            right: 7%;
         }
 
         .swiper-button-prev {
@@ -891,8 +879,7 @@
     }
 
     #sec03-offer-content {
-
-        .remove-padding-top{
+        .remove-padding-top {
             padding-top: 5rem;
         }
 
@@ -908,7 +895,6 @@
         }
 
         .img-content {
-
             .category {
                 width: 25%;
                 p {
@@ -948,3 +934,19 @@
     }
 }
 
+@media only screen and (max-width: 388px) {
+    #sec01-title {
+        h2 {
+            font-size: 2.8rem;
+            padding-top: 7.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            padding-top: 1.7rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        padding-bottom: 7.5rem;
+    }
+}
