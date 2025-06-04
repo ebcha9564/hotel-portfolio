@@ -1,9 +1,9 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import url("//fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
 :root {
-  --white-color: #FFF4EE;
-  --black-color: #1F1B1B;
-  --navy-color: #0A1F40;
+  --white-color: #fff4ee;
+  --black-color: #1f1b1b;
+  --navy-color: #0a1f40;
   --banner-font-size: 4.5rem;
   --subtitle-font-size: 2.25rem;
   --banner-letter-spacing: -0.02em;
@@ -23,6 +23,24 @@
   --bold-font-weight: 600;
   --extra-bold-font-weight: 700;
   --sec05-font-size: 1rem;
+  --neon-glow: 0 0 10px rgba(92, 54, 22, .5), 0 0 20pxrgba(92, 54, 22, .3), 0 0 30px rgba(92, 54, 22, .1);
+  --primary-color: #2196f3;
+  --primary-glow: rgba(33, 150, 243, 0.8);
+  --secondary-color: #9c27b0;
+  --text-color: #ffffff;
+  --bg-color: #0a1f40;
+  --nav-bg: rgba(16, 16, 26, 0.7);
+  --dropdown-bg: rgba(92, 54, 22, 0.7);
+  --hover-color: #1f1b1b;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-medium: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --gradient-bg: linear-gradient(135deg, var(--bg-color), #151530);
+  --glass-effect: saturate(180%) blur(10px);
+  --border-radius: 12px;
+  --text-description: rgba(255, 255, 255, 0.7);
 }
 
 @-webkit-keyframes inM {
