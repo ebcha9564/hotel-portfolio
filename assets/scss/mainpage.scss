@@ -7,6 +7,14 @@
     width: 100%;
     z-index: 9999;
 
+    .nav-brand {
+        .logo {
+            font-family: var(--title-font-family);
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+    }
+
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -53,7 +61,7 @@
     .nav-link.active {
         color: var(--navy-color);
         text-shadow: var(--neon-glow);
-        background: #F2ECE6;
+        background: #f2ece6;
         transform: translateY(-2px);
     }
 
@@ -146,7 +154,7 @@
     }
 
     .dropdown a:hover {
-        background: #F2ECE6;
+        background: #f2ece6;
         color: var(--navy-color);
         transform: translateX(5px);
     }
@@ -320,7 +328,7 @@
             z-index: 1;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -511,7 +519,7 @@
         transition: opacity 1.5s ease-in-out;
     }
 
-    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
@@ -1246,7 +1254,7 @@
             padding-top: 5rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -1545,7 +1553,7 @@
             padding-top: 5rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -1905,7 +1913,7 @@
             padding-top: 5rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -2105,7 +2113,7 @@
             padding-top: 5rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -2266,7 +2274,7 @@
             padding-top: 4rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -2547,7 +2555,7 @@
             padding-top: 5rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -2716,6 +2724,22 @@
             span {
                 font-size: 3rem;
             }
+
+            .slide-text-1{
+                top: 35%;
+            }
+
+            .slide-text-2{
+                top: 42%;
+            }
+
+            .slide-text-3{
+                top: 49%;
+            }
+
+            .slide-text-4{
+                top: 56%;
+            }
         }
 
         .reservationForm {
@@ -2726,7 +2750,7 @@
     #sec01-about-us {
         height: 100%;
 
-        .row>* {
+        .row > * {
             padding-right: 0;
         }
 
@@ -2734,7 +2758,7 @@
             padding-top: 3rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -3017,7 +3041,7 @@
             padding-top: 3rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -3127,7 +3151,7 @@
             padding-top: 3rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
@@ -3209,7 +3233,7 @@
             padding-top: 2rem;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-horizontal > .swiper-pagination-bullets,
         .swiper-pagination-bullets.swiper-pagination-horizontal,
         .swiper-pagination-custom,
         .swiper-pagination-fraction {
